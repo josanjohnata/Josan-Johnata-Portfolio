@@ -1,16 +1,14 @@
-import { useContext, useEffect } from 'react';
+import React from 'react';
 import './App.css';
-import { GlobalContext } from './GlobalContext';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
-  const { contar, setContar, titulo } = useContext(GlobalContext)
-  useEffect(() => {
-    document.title = titulo + ': ' + contar;
-  }, [contar, titulo]);
-
   return (
+    <>
     <Header />
+    <Footer />
+    </>
   );
 }
 
