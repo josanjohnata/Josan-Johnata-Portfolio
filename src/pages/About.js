@@ -8,7 +8,7 @@ function About() {
       <Header />
       <section>
         <div>
-          <div>
+          <div >
             <div>
               <h2>Sobre Mim</h2>
               <div>
