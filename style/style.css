@@ -2,3 +2,16 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.navbar.bg-light .navbar-toggler-icon {
+  background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
+}
+
+.dropdown-item {
+  color: white;
+}
+
+/* Colocar a navBar fixed quando estiver em tela mobil */
+/* header {
+  position:fixed;
+} */
