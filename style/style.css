@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -19,14 +23,20 @@ a {
 }
 
 .im {
-  /* text-align: center; */
-  font-size: 2.3rem;
-  margin-bottom: .3rem;letter-spacing: .2rem;
+  font-size: 40px;
+  letter-spacing: .2rem;
   color: #0084ff;
   font-family: "poppins-bold", sans-serif;
   font-weight: 700;
   line-height: 1.565;
   text-shadow: 0 0 6px rgba(0 0 0 / 20%);
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: #000; 
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  letter-spacing: .15rem;
 }
 
 .myName {
@@ -36,11 +46,16 @@ a {
   font-family: "Poppins", sans-serif;
   line-height: 1.071;
   max-width: 900px;
-  margin-top: 0;
   margin-bottom: .6rem;
   margin-left: auto;
   margin-right: auto;
   text-shadow: 0 0 20px rgba(0 0 0 / 50%);
+  line-height: 1.4rem !important;
+  padding: 0 2rem 0 2rem !important;
+  margin-top: 2rem;
+  letter-spacing: .15rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000; 
 }
 
 .abilities {
@@ -48,13 +63,18 @@ a {
   font-weight: bold;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  line-height: 2.4rem;
-  max-width: 900px;
-  margin-top: 0;
+  max-width: 1200px;
+  margin-top: 3rem;
   margin-bottom: .6rem;
   margin-left: auto;
   margin-right: auto;
   text-shadow: 0 0 6px rgba(0 0 0 / 20%);
+  box-sizing: inherit;
+  line-height: 1.4rem !important;
+  padding: 0 1rem 0 1rem !important;
+  letter-spacing: .15rem;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #000; 
 }
 
 .ability1::before {
@@ -79,32 +99,37 @@ a {
   font-weight: 100;
   content: " |";
   color: rgb(214, 214, 214);
+  
 }
 
 #moreAboutMe {
+  box-sizing: inherit;
   color: #FFFFFF !important;
   border-color: rgba(255, 255, 255, 0.3);
-  height: 6rem !important;
-  line-height: 5.4rem !important;
-  padding: 0 3.5rem 0 3rem !important;
-  margin-top: 1.6rem;
-  font-size: 1.3rem;
-  letter-spacing: .25rem;
-  background: transparent !important;
+  line-height: 3.4rem !important;
+  padding: 0 1rem 0 1rem !important;
+  margin-top: 5rem;
+  letter-spacing: .20rem;
   border: 3px solid #313131;
   display: inline-block;
-  /* content: "\f107"; */
   font-family: fontAwesome;
-  /* font-size: 1.6rem; */
-  line-height: inherit;
-  text-align: center;
-  /* position: relative; */
-  /* left: 1.2rem; */
+  transition: all ease 0.8s !important;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #fff; 
+}
+
+#moreAboutMe:hover {
+  border-color: #0084ff;
 }
 
 .intro-social {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
+  width: 100%;
+  left: 0;
+  font-size: 2.5rem;
+  letter-spacing: 5rem;
 }
 
 .myPhoto {
