@@ -81,7 +81,7 @@ a {
   color: rgb(214, 214, 214);
 }
 
-#moreAbouteMe {
+#moreAboutMe {
   color: #FFFFFF !important;
   border-color: rgba(255, 255, 255, 0.3);
   height: 6rem !important;
@@ -105,6 +105,12 @@ a {
 .intro-social {
   display: flex;
   justify-content: center;
+}
+
+.myPhoto {
+  height: 66px;
+  width: 66px;
+  border-radius: 100%;
 }
 
 ul {
