@@ -3,6 +3,114 @@ a {
   color: black;
 }
 
+.sectionMain {
+  text-align: center;
+  background-image: url(../images/hero.jpg);
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-content {
+  display:flex;
+}
+
+.im {
+  /* text-align: center; */
+  font-size: 2.3rem;
+  margin-bottom: .3rem;letter-spacing: .2rem;
+  color: #0084ff;
+  font-family: "poppins-bold", sans-serif;
+  font-weight: 700;
+  line-height: 1.565;
+  text-shadow: 0 0 6px rgba(0 0 0 / 20%);
+}
+
+.myName {
+  font-size: 82.3px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.071;
+  max-width: 900px;
+  margin-top: 0;
+  margin-bottom: .6rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 0 20px rgba(0 0 0 / 50%);
+}
+
+.abilities {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  line-height: 2.4rem;
+  max-width: 900px;
+  margin-top: 0;
+  margin-bottom: .6rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 0 6px rgba(0 0 0 / 20%);
+}
+
+.ability1::before {
+  font-weight: 100;
+  content: "| ";
+  color: rgb(214, 214, 214);
+}
+
+.ability1::after {
+  font-weight: 100;
+  content: " | ";
+  color: rgb(214, 214, 214);
+}
+
+.ability2::after {
+  font-weight: 100;
+  content: " | ";
+  color: rgb(214, 214, 214);
+}
+
+.ability3::after {
+  font-weight: 100;
+  content: " |";
+  color: rgb(214, 214, 214);
+}
+
+#moreAbouteMe {
+  color: #FFFFFF !important;
+  border-color: rgba(255, 255, 255, 0.3);
+  height: 6rem !important;
+  line-height: 5.4rem !important;
+  padding: 0 3.5rem 0 3rem !important;
+  margin-top: 1.6rem;
+  font-size: 1.3rem;
+  letter-spacing: .25rem;
+  background: transparent !important;
+  border: 3px solid #313131;
+  display: inline-block;
+  /* content: "\f107"; */
+  font-family: fontAwesome;
+  /* font-size: 1.6rem; */
+  line-height: inherit;
+  text-align: center;
+  /* position: relative; */
+  /* left: 1.2rem; */
+}
+
+.intro-social {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
 .navbar.bg-light .navbar-toggler-icon {
   background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
 }
