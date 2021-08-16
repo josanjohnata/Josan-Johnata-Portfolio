@@ -19,24 +19,24 @@ a {
 }
 
 .intro-content {
-  display:flex;
+  display: flex;
 }
 
 .im {
   font-size: 40px;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   color: #0084ff;
   font-family: "poppins-bold", sans-serif;
   font-weight: 700;
   line-height: 1.565;
   text-shadow: 0 0 6px rgba(0 0 0 / 20%);
   -webkit-text-stroke-width: 0.7px;
-  -webkit-text-stroke-color: #000; 
+  -webkit-text-stroke-color: #000;
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 6rem;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
 }
 
 .myName {
@@ -46,16 +46,16 @@ a {
   font-family: "Poppins", sans-serif;
   line-height: 1.071;
   max-width: 900px;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
   margin-left: auto;
   margin-right: auto;
   text-shadow: 0 0 20px rgba(0 0 0 / 50%);
   line-height: 1.4rem !important;
   padding: 0 2rem 0 2rem !important;
   margin-top: 2rem;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000; 
+  -webkit-text-stroke-color: #000;
 }
 
 .abilities {
@@ -65,16 +65,16 @@ a {
   font-family: "Poppins", sans-serif;
   max-width: 1200px;
   margin-top: 3rem;
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
   margin-left: auto;
   margin-right: auto;
   text-shadow: 0 0 6px rgba(0 0 0 / 20%);
   box-sizing: inherit;
   line-height: 1.4rem !important;
   padding: 0 1rem 0 1rem !important;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   -webkit-text-stroke-width: 0.8px;
-  -webkit-text-stroke-color: #000; 
+  -webkit-text-stroke-color: #000;
 }
 
 .ability1::before {
@@ -99,27 +99,32 @@ a {
   font-weight: 100;
   content: " |";
   color: rgb(214, 214, 214);
-  
 }
 
 #moreAboutMe {
   box-sizing: inherit;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   border-color: rgba(255, 255, 255, 0.3);
   line-height: 3.4rem !important;
   padding: 0 1rem 0 1rem !important;
   margin-top: 5rem;
-  letter-spacing: .20rem;
+  letter-spacing: 0.2rem;
   border: 3px solid #313131;
   display: inline-block;
   font-family: fontAwesome;
-  transition: all ease 0.8s !important;
+  transition: all 0.8s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transform: scale(0.9);
   -webkit-text-stroke-width: 0.8px;
-  -webkit-text-stroke-color: #fff; 
+  -webkit-text-stroke-color: #fff;
 }
 
 #moreAboutMe:hover {
   border-color: #0084ff;
+  transform:scale(1);
 }
 
 .intro-social {
@@ -132,6 +137,7 @@ a {
   letter-spacing: 5rem;
 }
 
+
 .myPhoto {
   height: 66px;
   width: 66px;
@@ -143,14 +149,9 @@ ul {
 }
 
 .navbar.bg-light .navbar-toggler-icon {
-  background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000");
 }
 
 .dropdown-item {
   color: white;
 }
-
-/* Colocar a navBar fixed quando estiver em tela mobil */
-/* header {
-  position:fixed;
-} */
