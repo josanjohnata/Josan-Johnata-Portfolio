@@ -137,11 +137,55 @@ a {
   letter-spacing: 5rem;
 }
 
+.intro-social li a i {
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.2s;
+}
+
+.section-intro {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 3.6rem;
+  position: relative;
+}
+
+.section-intro h5 {
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  color: #0084ff;
+  font-size: 1.6rem;
+  line-height: 1.875;
+  margin-bottom: 0.3rem;
+  letter-spacing: .4rem;
+}
+
+.section-intro h1 {
+  font-family: "poppins", serif;
+  font-weight: bold;
+  font-size: 2.3rem;
+  color: #313131;
+  line-height: 1.25;
+  margin-bottom: 1.2rem;
+}
 
 .myPhoto {
+  height: 11rem;
+  width: 11rem;
+  border-radius: 50%;
+  margin: .9rem 0 0 0;
+  float: left;
   height: 66px;
   width: 66px;
   border-radius: 100%;
+}
+
+.intro-info .lead {
+  text-align: left;
+  padding-left: 13rem;
+  text-align: justify;
 }
 
 ul {
