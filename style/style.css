@@ -143,6 +143,12 @@ a {
   transition: all ease 0.2s;
 }
 
+#about {
+  background: #FFFFFF;
+  padding-top: 12rem;
+  padding-bottom: 15rem;
+}
+
 .section-intro {
   max-width: 900px;
   margin-left: auto;
@@ -156,8 +162,8 @@ a {
   font-family: "poppins", sans-serif;
   font-weight: bold;
   color: #0084ff;
-  font-size: 1.6rem;
-  line-height: 1.875;
+  font-size: 1.3rem;
+  line-height: 1.5;
   margin-bottom: 0.3rem;
   letter-spacing: .4rem;
 }
@@ -177,14 +183,20 @@ a {
   border-radius: 50%;
   margin: .9rem 0 0 0;
   float: left;
-  height: 66px;
-  width: 66px;
-  border-radius: 100%;
+  max-width: 100%;
 }
 
 .intro-info .lead {
   text-align: left;
   padding-left: 13rem;
+  text-align: justify;
+}
+
+p.lead {
+  font-family: 'Lora', serif;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: #888888;
   text-align: justify;
 }
 
