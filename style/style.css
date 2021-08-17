@@ -167,30 +167,36 @@ h3 {
 
 .intro-social {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 3rem;
   width: 100%;
-  left: 0;
   font-size: 2.5rem;
-  letter-spacing: 5rem;
 }
 
-.intro-social li a i {
-  width: 100%;
+.socialItem {
+  transition: all 0.8s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
   transform: scale(0.9);
-  transition: all ease 0.2s;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.socialItem:hover {
+  transform: scale(1.1);
+  width: 45px;
 }
 
 #about {
   background: #ffffff;
-  padding-top: 12rem;
+  padding-top: 5rem;
   padding-bottom: 15rem;
 }
 
 .section-intro {
   max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   margin-bottom: 3.6rem;
   position: relative;
@@ -289,12 +295,6 @@ p {
 
 ul {
   list-style: none;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
 }
 
 .col-six, .col-1-2 {
@@ -304,11 +304,6 @@ ul {
 .about-content .info-list li {
   padding: 0 0 1.5rem 0;
   margin-bottom: .6rem;
-}
-
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
 }
 
 .about-content .skill-bars {
