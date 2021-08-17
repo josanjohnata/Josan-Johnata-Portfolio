@@ -192,7 +192,6 @@ h3 {
 #about {
   background: #ffffff;
   padding-top: 5rem;
-  padding-bottom: 15rem;
 }
 
 .section-intro {
@@ -248,7 +247,7 @@ p.lead {
   position: relative;
   text-align: left;
   max-width: 850px;
-  margin-bottom: 3.6rem;
+  margin-bottom: 2rem;
 }
 
 .row {
@@ -295,6 +294,57 @@ p {
 
 ul {
   list-style: none;
+}
+
+.button2{
+  box-sizing: inherit;
+  color: #313131 !important;
+  border: 3px solid #313131;
+  line-height: 3.4rem !important;
+  padding: 0 1rem 0 1rem !important;
+  margin-top: 5rem;
+  letter-spacing: 0.2rem;
+  border: 3px solid #313131;
+  display: inline-block;
+  font-family: fontAwesome;
+  font-weight: bold;
+  transition: all 0.8s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transform: scale(0.9);
+}
+
+.button2:hover {
+  border-color: #0084ff;
+  transform: scale(1);
+}
+
+.button3{
+  box-sizing: inherit;
+  color: #fff !important;
+  background-color: #313131;
+  border: 3px solid #313131;
+  line-height: 3.4rem !important;
+  padding: 0 1rem 0 1rem !important;
+  margin-top: 5rem;
+  letter-spacing: 0.2rem;
+  border: 3px solid #313131;
+  display: inline-block;
+  font-family: fontAwesome;
+  font-weight: bold;
+  transition: all 0.8s ease-in-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transform: scale(0.9);
+}
+
+.button3:hover {
+  border-color: #0084ff;
+  transform: scale(1);
 }
 
 .col-six, .col-1-2 {
