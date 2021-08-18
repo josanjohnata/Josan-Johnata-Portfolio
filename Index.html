@@ -1,133 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-  </style>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="./style/style.css">
-  <link rel="icon" type="image/png" href="./images/brunch__1_-removebg-preview.png" />
+  <meta charset="utf-8">
   <title>Johnata Pontes</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="./style/base.css">
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/vendor.css">
+  <script src="./script/modernizr.js"></script>
+  <script src="./script/pace.min.js"></script>
+  <link rel="icon" type="image/png" href="./images/brunch__1_-removebg-preview.png" />
 </head>
 
-<body>
+<body id="top">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
-        aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-        <ul class="navbar-nav">
-          <li>
-            <a class="dropdown-item" href="./Index.html">
-              Home
-              <span class="sr-only"></span>
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="about.html">
-              About
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="./">
-              Resume
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="../">
-              Portfolio
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="./">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
+
+    <nav class="row">
+      <div class="top-bar">
+        <a class="menu-toggle" href="#"><span>Menu</span></a>
+        <div class="logo">
+          <a href="index.html">Home</a>
+        </div>
+        <nav id="main-nav-wrap">
+          <ul class="main-navigation">
+            <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+            <li><a class="smoothscroll" href="#about" title="">About</a></li>
+            <li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+            <li><a class="smoothscroll" href="#services" title="">Services</a></li>
+            <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </nav>
   </header>
-  <main>
-    <section class="intro-content">
-      <div class="sectionMain">
+  <section class="intro-content">
+    <div class="intro-overlay">
+      <div class="intro-content">
         <div class="row">
           <div class="col-twelve">
-            <h3 class="im">I'M</h3>
+            <h5 class="im">I'M</h5>
             <h1 class="myName">Josan Johnata</h1>
-            <p class="abilities">
-              <span class="ability1">FULLSTACK WEB DEVELOPER</span>
-              <span class="ability2">INFORMATION SECURITY ANALYST</span>
-              <span class="ability3">CYBER SECURITY</span>
+            <p class="intro-position">
+              <span>FULLSTACK WEB DEVELOPER</span>
+              <span>INFORMATION SECURITY ANALYST</span>
+              <span>CYBER SECURITY</span>
             </p>
-            <a class="button stroke-smoothscroll" id="moreAboutMe" href="#about" title="">MORE ABOUT ME <i
-                class="fas fa-angle-down"></i></a>
-            <ul class="intro-social">
-              <li class="socialItem"><a target="_blank" href="https://github.com/josanjohnata" style="color: rgb(253, 253, 253);"><i
-                    class="bi bi-github"></i></a></li>
-              <li class="socialItem"><a target="_blank" href="https://www.linkedin.com/in/josanjohnata/"><i class="bi bi-linkedin" style="color: rgb(253, 253, 253);"></i></a>
-              </li>
-              <li class="socialItem"><a target="_blank" href="https://www.instagram.com/johnatapontes/"><i class="bi bi-instagram" style="color: rgb(253, 253, 253);"></i></a>
-              </li>
-              <li class="socialItem"><a target="_blank" href="https://wa.me/85998139612"><i class="bi bi-whatsapp" style="color: rgb(253, 253, 253);"></i></a></li>
-            </ul>
+            <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
           </div>
         </div>
       </div>
-      </div>
-      </div>
-    </section>
-    <section>
-      <div id="about">
-        <div class="container -sm -md -lg -xl -xxl -fluid">
-          <div class="row section-intro">
-            <div class="col-twelve">
-              <h5>ABOUT</h5>
-              <h1>Let me introduce myself.</h1>
-              <div class="intro-info">
-                <img src="./images/photo.png" alt="Profile Picture" class="myPhoto">
-                <p class="lead">Hello, I'm Johnata, I'm 29 years old, born and raised in Ceará, Brazil.<br>
+      <ul class="intro-social">
+        <li><a href="https://github.com/josanjohnata"><i class="fa fa-git"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/josanjohnata/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.instagram.com/johnatapontes/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://wa.me/85998139612"><i class="fa fa-whatsapp"></i></a></li>
+      </ul>
+  </section>
+  <section id="about">
 
-                  <br>I'm a web professional who loves to create technological products and solutions.<br>
+    <div id="about">
+      <div class="col-twelve">
+        <div class="intro-info">
+          <h5>ABOUT</h5>
+          <h1>Let me introduce myself.</h1>
 
-                  <br>Recently, I developed a clone page of <a
-                    src="https://josanjohnata.github.io/project-netflix-final/">Netflix</a> and in this project it was a
-                  challenge that I set myself to practice my knowledge with API requests and how to search
-                  for information in external places, I also learned about handling LocalStorage.<br>
+          <div class="intro-info">
 
-                  I also have other Front-End development projects, data encryption, machine learning and
-                  reporting and dashboards.<br>
+            <img src="./images/photo.png" alt="Profile Picture" class="myPhoto">
 
-                  <br>I would love to combine my passion for learning and solving "puzzles" with my skills
-                  as a developer, information security analyst and cyber security to continue to build custom products
-                  for individuals and businesses.
-                </p>
-              </div>
+            <p class="lead">Hello, I'm Johnata, I'm 29 years old, born and raised in Ceará, Brazil.<br>
 
-            </div>
+              <br>I'm a web professional who loves to create technological products and solutions.<br>
+
+              <br>Recently, I developed a clone page of <a
+                src="https://josanjohnata.github.io/project-netflix-final/">Netflix</a> and in this project it was a
+              challenge that I set myself to practice my knowledge with API requests and how to search
+              for information in external places, I also learned about handling LocalStorage.<br>
+
+              I also have other Front-End development projects, data encryption, machine learning and
+              reporting and dashboards.<br>
+
+              <br>I would love to combine my passion for learning and solving "puzzles" with my skills
+              as a developer, information security analyst and cyber security to continue to build custom products
+              for individuals and businesses.
+            </p>
+
           </div>
+
         </div>
       </div>
-    </section>
-    <section id="about">
+
       <div class="row about-content">
         <div id="left" class="col-six tab-full">
+
           <h3>Profile</h3>
           <p class="subtitle">
             I'm majoring in Information Security slated for July 2022 and Fullstack Web Development
@@ -173,40 +142,105 @@
             </li>
           </ul>
         </div>
-        <div id="right" class="col-six tab-full">
+        <div class="col-six tab-full">
           <h3>Skills</h3>
           <p class="subtitle">Here, I share with you some of my main technical skills and level of knowledge about
             each one:</p>
           <ul class="skill-bars">
             <li>
+              <div class="progress percent45"><span>45%</span></div>
               <strong>Python</strong>
             </li>
             <li>
+              <div class="progress percent75"><span>75%</span></div>
               <strong>JavaScript</strong>
             </li>
             <li>
-              <strong>React js</strong>
+              <div class="progress percent80"><span>80%</span></div>
+              <strong>React JS</strong>
             </li>
             <li>
+              <div class="progress percent80"><span>80%</span></div>
               <strong>Linux</strong>
             </li>
             <li>
+              <div class="progress percent75"><span>75%</span></div>
               <strong>Web Development</strong>
             </li>
             <li>
+              <div class="progress percent75"><span>75%</span></div>
               <strong>SQL and No-SQL Code</strong>
+            </li>
+            <li>
+              <div class="progress percent80"><span>80%</span></div>
+              <strong>Cyber Security</strong>
             </li>
           </ul>
         </div>
+      </div>
+      <div class="row button-section">
         <div class="col-twelve">
-          <a href="#contact" title="Hire Me" class="button2">HIRE ME</a>
-          <a href="Aqui_tenho_que_subir_meu_cv_em_pdf" title="Download CV" class="button3">
-            DOWNLOAD CV</a>
+          <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+          <a href="" title="Download CV" class="button button-primary">Download CV</a>
+        </div>
+  </section>
+  <section id="resume" class="grey-section">
+
+    <div class="row section-intro">
+      <div class="col-twelve">
+
+        <h5>Resume</h5>
+        <h1>More of my credentials.</h1>
+
+        <p class="lead">My professional objective is to work in the main technology areas with emphasis on the
+          administration of SQL and NoSQL databases and in engineering and data science pipelines. In this way,
+          contributing to the growth of the business and attracting customers through personalized services and
+          products.<br>
+          <br>My ambition is to become a reference and respected professional in the data communities and in the job
+          market. For that, I have dedicated time and daily studies to improve my knowledge and skills with data.
+        </p>
+
+      </div>
+    </div> <!-- /section-intro-->
+
+    <div class="row resume-timeline">
+
+      <div class="col-twelve resume-header">
+
+        <h2>Work Experience</h2>
+
+      </div> <!-- /resume-header -->
+
+      <div class="col-twelve">
+
+        <div class="timeline-wrap">
+
+          <div class="timeline-block">
+
+            <div class="timeline-ico">
+              <i class="fa fa-graduation-cap"></i>
+            </div>
+
+            <div class="timeline-header">
+              <h3>Oracle DBA</h3>
+              <p>November 2019 - Present</p>
+            </div>
+
+            <div class="timeline-content">
+              <h4>Vip net solutions </h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Labore culpa, eveniet placeat id quaerat exercitationem
+                voluptate beatae blanditiis neque porro rem accusamus
+                dolores nesciunt ipsam atque, minima doloremque maiores
+                molestiae.</p>
+            </div>
+
+          </div>
         </div>
       </div>
-      </div>
-    </section>
-    <section class="container -sm -md -lg -xl -xxl -fluid">
+    </div>
+    <div class="row resume-timeline">
+
       <div class="col-twelve resume-header">
         <h2>Education</h2>
       </div>
@@ -214,7 +248,7 @@
 
         <div class="timeline-wrap">
 
-        </div> <!-- /timeline-block -->
+        </div>
 
         <div class="timeline-block">
 
@@ -232,7 +266,7 @@
             <p>Information Security</p>
           </div>
 
-        </div> <!-- /timeline-block -->
+        </div>
 
         <div class="timeline-block">
 
@@ -250,7 +284,7 @@
             <p>FullStack Web Development</p>
           </div>
 
-        </div> <!-- /timeline-block -->
+        </div>
 
         <div class="timeline-block">
 
@@ -274,7 +308,7 @@
             </p>
           </div>
 
-        </div> <!-- /timeline-block -->
+        </div>
 
         <div class="timeline-block">
 
@@ -310,40 +344,415 @@
             <p>Cyber Security Foundation: Professional Certificate Based on CyBOK.</p>
           </div>
 
-        </div> <!-- /timeline-block -->
-
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="row">
-      <div class="container -sm -md -lg -xl -xxl -fluid">
-        <div>
-          <div class="col-six tab-full pull-right social">
-
-            <ul class="footer-social">
-              <li><a target="_blank" href="https://github.com/josanjohnata"><i class="bi bi-github"></i></a></li>
-              <li><a target="_blank" href="https://www.linkedin.com/in/josanjohnata/"><i class="bi bi-linkedin"></i></a>
-              </li>
-              <li><a target="_blank" href="https://www.instagram.com/johnatapontes/"><i class="bi bi-instagram"></i></a>
-              </li>
-              <li><a target="_blank" href="https://wa.me/85998139612"><i class="bi bi-whatsapp"></i></a></li>
-            </ul>
-
-          </div>
         </div>
       </div>
     </div>
-    <div class="container -sm -md -lg -xl -xxl -fluid">
-      <p>
-        Copyright &copy;2021 All rights reserved | Johnata Pontes
+  </section>
+
+
+  <section id="portfolio">
+
+    <div class="row section-intro">
+      <div class="col-twelve">
+
+        <h5>Portfolio</h5>
+        <h1>Check Out Some of My Works.</h1>
+
+        <p class="lead">I am very happy, welcomed and grateful to present the works that I have participated and
+          developed. Below, I share a brief presentation of projects performed:</p>
+
+      </div>
+    </div> <!-- /section-intro-->
+
+    <div class="row portfolio-content">
+
+      <div class="col-twelve">
+
+        <!-- portfolio-wrapper -->
+        <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/WebScraping5.jpg" alt="Liberty">
+              <a href="#modal-01" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Web Scraping</h3>
+                    <span class="folio-types">
+                      Data Scraping from Internet Sites
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/DisasterResponsePipeline.jpg" alt="Shutterbug">
+              <a href="#modal-02" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Disaster Response Pipeline</h3>
+                    <span class="folio-types">
+                      Data Engineering - Capture, analysis, processing and presentation of messages in times of disaster
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/ChurnCustomers4.jpg" alt="Clouds">
+              <a href="#modal-03" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Predicting Churning Customers Using CRISP-DM Methodology</h3>
+                    <span class="folio-types">
+                      Data Scientist - Identifying Customer Churn Generation
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <div class="bgrid folio-item">
+            <div class="item-wrap">
+              <img src="images/portfolio/EDA3.jpg" alt="Beetle">
+              <a href="#modal-04" class="overlay">
+                <div class="folio-item-table">
+                  <div class="folio-item-cell">
+                    <h3 class="folio-title">Auto and Command Line Exploratory Data Analysis (EDA)</h3>
+                    <span class="folio-types">
+                      Data Analysis and Reporting
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div> <!-- /folio-item -->
+
+          <!-- modal popups - begin
+              ============================================================= -->
+          <div id="modal-01" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/m-WebScraping5.jpg" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Web Scraping</h4>
+              <p>The motivation for this project was to create a knowledge base to provide structured data in CSV format
+                of vehicle advertisements on the OLX website. In this way, this knowledge base can be used in a data
+                pipeline to apply a machine learning model to estimate vehicle value, categorize vehicle types as well
+                as identify possible groupings in the data.</p>
+
+              <div class="categories">Category: Data Engineer-Scientist</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://github.com/HenriqueMartinsPrado/Projects-Python-Web-Scraping">Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-01 -->
+
+          <div id="modal-02" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/m-DisasterResponsePipeline.jpg" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Disaster Response Pipeline</h4>
+              <p>The motivation for developing this project was to analyze disaster data offered by the Figure Eight
+                data set. In this data set, real messages sent during disaster events were found. Thus, using this data
+                set, a machine learning pipeline was created so that it was possible to send the messages to an
+                appropriate disaster relief agency.</p>
+
+              <div class="categories">Category: Data Engineering</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://github.com/HenriqueMartinsPrado/Project-Disaster-Response-Pipeline">Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-02 -->
+
+          <div id="modal-03" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/m-ChurnCustomers4.jpg" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Predicting Churning Customers Using CRISP-DM Methodology</h4>
+              <p>The development of this project aimed to identify the churn generation of customers. The project's
+                motivation was to analyze patterns, trends and predictions extracted from the data using machine
+                learning models capable of identifying the significant decrease in the use of services and products by
+                customers generating churn. The importance of development is precisely to provide companies with the
+                possibility to identify the decrease in consumption of their businesses and to act in order to identify
+                the problems that caused this decrease, as well as to explore new possibilities to retain and attract
+                new customers with differentiated services and new products.<br>
+
+                <br><a href="https://hmartins-prado.medium.com/"><i class="fa fa-magic"></i>Click here to view the
+                  Medium Post</a>
+
+
+              </p>
+
+              <div class="categories">Category: Data Scientist - Identifying Customer Churn Generation</div>
+            </div>
+
+            <div class="link-box">
+              <a href="https://github.com/HenriqueMartinsPrado/Capstone-Project-Data-Scientist-Nano-Degree">Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-03 -->
+
+          <div id="modal-04" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/m-EDA3.jpg" alt="" />
+            </div>
+
+            <div class="description-box">
+              <h4>Beetle</h4>
+              <p>The motivation to develop this project was to create ways to provide a quick overview of a data set
+                through command lines developed with the Python language and the pandas_profiling and sweetviz
+                libraries. These approaches allow for speed gains in the understanding and preparation of data within a
+                pipeline and in the wake of projects. Also, the libraries used allow reports to be generated so that
+                they can be shared with all team members involved in the data project and provide a dissemination of
+                knowledge.</p>
+
+              <div class="categories">Category: Data Analysis and Reporting</div>
+            </div>
+
+            <div class="link-box">
+              <a
+                href="https://github.com/HenriqueMartinsPrado/Projects-Auto-and-Command-Line-EDA-Exploratory_Data_Analysis">Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+          </div> <!-- /modal-04 -->
+
+
+          <!-- modal popups - end
+              ============================================================= -->
+
+        </div> <!-- /portfolio-wrapper -->
+
+      </div> <!-- /twelve -->
+
+    </div> <!-- /portfolio-content -->
+
+  </section>
+  <section id="cta" class="grey-section">
+
+    <div class="row cta-content">
+
+      <!-- <div class="col-twelve section-ads"> -->
+
+      <h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Certifications Badges</a></h2>
+
+      <p class="lead">
+        I share below some certifications acquired during my career that reflect hours of study, time, effort and
+        discipline for continuous learning.
+        <!-- <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">
+						<span>Testing</span></a>. Test 
+						<span> Test2</span> Test3 
+						<span> Test4</span>. -->
+        <!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
       </p>
+
+      <!-- <div class="action">
+					<a class="button button-primary large" href="https://www.youracclaim.com/earner/earned">Checkout all my Badges</a>
+				</div> -->
+
+      <div class="action">
+        <div class="col-twelve">
+          <a href="files/Academic_Transcript20210126_HenriqueMartinsPrado.pdf" title="Download Certifications"
+            class="button button-primary">Checkout all my Badges</a>
+        </div>
+      </div>
+
+
+    </div>
+
+    </div> <!-- /cta-content -->
+
+  </section>
+
+  <section id="services">
+
+    <div class="overlay"></div>
+
+    <div class="row section-intro">
+      <div class="col-twelve">
+
+        <h5>Services</h5>
+        <h1>What Can I Do For You?</h1>
+
+        <p class="lead">I would love to meet your need and help you solve a problem, as well as create a customized
+          solution or product for your business.</p>
+
+      </div>
+    </div> <!-- /section-intro -->
+
+    <div class="row services-content">
+
+      <div id="owl-slider" class="owl-carousel services-list">
+
+        <div class="service">
+
+          <span class="icon"><i class="icon-earth"></i></span>
+
+          <div class="service-content">
+
+            <h3>Web Scraping</h3>
+
+            <p class="desc">Collection of data from the web, or web scraping, mining that allows the extraction of data
+              from web sites, converting them into structured information for later analysis. This approach allows
+              adding new information to an existing data set, as well as starting a new knowledge base.
+            </p>
+
+          </div>
+
+        </div> <!-- /service -->
+
+        <div class="service">
+
+          <span class="icon"><i class="icon-window"></i></span>
+
+          <div class="service-content">
+
+            <h3>Machine Learning Pipeline</h3>
+
+            <p class="desc">Structuring processes to move data from source to destination. This process constitutes
+              several data treatments, such as: extraction, cleaning, parsing, encoding, duplicate data, dummy
+              variables, featuring engineering and others.
+            </p>
+
+          </div>
+
+        </div> <!-- /service -->
+
+        <div class="service">
+
+          <span class="icon"><i class="icon-paint-brush"></i></span>
+
+          <div class="service-content">
+
+            <h3>Database Objects and Queries</h3>
+
+            <p class="desc">Database creation, permissions analysis for logins and users, database modeling, purge
+              routines, backup / restore routines, database migrations, jobs, views, stored procedures, query tuning,
+              bank administration among other activities.
+            </p>
+
+          </div>
+
+        </div> <!-- /service -->
+
+        <div class="service">
+
+          <span class="icon"><i class="icon-toggles"></i></span>
+
+          <div class="service-content">
+
+            <h3>Exploratory Data Analysis (EDA)</h3>
+
+            <p class="desc">Exploratory analysis of data sets in order to provide a complete understanding of them.
+              Through this service I can help you apply concepts and static practices to describe the entire data set.
+              In addition, generate reports using automatic approaches using the libraries pandas_profiling and
+              sweetviz.
+            </p>
+
+          </div>
+
+        </div> <!-- /service -->
+
+        <div class="service">
+
+          <span class="icon"><i class="icon-image"></i></span>
+
+          <div class="service-content">
+
+            <h3>Dashboards using PowerBI</h3>
+
+            <p class="desc">Creation of dashboards with an excellent storytelling about the data set. Also, creation of
+              queries to extract data from databases to supply the reports.
+            </p>
+
+          </div>
+
+        </div> <!-- /service -->
+
+        <div class="service">
+
+          <span class="icon"><i class="icon-chat"></i></span>
+
+          <div class="service-content">
+
+            <h3>Predicting Churning Customers</h3>
+
+            <p class="desc">Identify the churn generation of customers by analyzing patterns, trends and forecasts
+              extracted from the data through machine learning models capable of identifying the significant drop in the
+              use of services and products by customers.
+            </p>
+
+          </div>
+
+        </div> <!-- /service -->
+
+      </div> <!-- /services-list -->
+
+    </div> <!-- /services-content -->
+
+  </section>
+
+
+  <footer>
+    <div class="row">
+      <div class="col-six tab-full pull-right social">
+
+        <ul class="footer-social">
+          <li><a href="https://github.com/josanjohnata"><i class="bi bi-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/josanjohnata/"><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li><a href="https://www.instagram.com/johnatapontes/"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li><a href="https://wa.me/85998139612"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="col-eight tab-full">
+      <div class="copyright">
+        <span>© Copyright 2018 </span>
+        <span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+        <span>Distributed by <a href="https://themewagon.com/">themewagon</a></span>
+      </div>
+    </div>
+
+    <div id="go-top">
+      <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+    </div>
+
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-    </script>
-  <script src="./script/script.js"></script>
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
