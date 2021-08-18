@@ -1,230 +1,290 @@
+
 <!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
-  <meta charset="utf-8">
-  <title>Johnata Pontes</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" href="./style/base.css">
-  <link rel="stylesheet" href="./style/main.css">
-  <link rel="stylesheet" href="./style/vendor.css">
-  <script src="./script/modernizr.js"></script>
-  <script src="./script/pace.min.js"></script>
-  <link rel="icon" type="image/png" href="./images/brunch__1_-removebg-preview.png" />
+
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>Josan Johnata - Portfolio</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./style/base.css">
+	<link rel="stylesheet" href="./style/main.css">
+	<link rel="stylesheet" href="./style/vendor.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="./script/modernizr.js"></script>
+	<script src="./script/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<!-- <link rel="icon" type="image/png" href="favicon.png"> -->
+	<link rel="icon" type="image/png" href="./images/brunch__1_-removebg-preview.png">
+
 </head>
 
 <body id="top">
-  <header>
 
-    <nav class="row">
-      <div class="top-bar">
-        <a class="menu-toggle" href="#"><span>Menu</span></a>
-        <div class="logo">
-          <a href="index.html">Home</a>
-        </div>
-        <nav id="main-nav-wrap">
-          <ul class="main-navigation">
-            <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-            <li><a class="smoothscroll" href="#about" title="">About</a></li>
-            <li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-            <li><a class="smoothscroll" href="#services" title="">Services</a></li>
-            <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </nav>
-  </header>
-  <section class="intro-content">
-    <div class="intro-overlay">
-      <div class="intro-content">
-        <div class="row">
-          <div class="col-twelve">
-            <h5 class="im">I'M</h5>
-            <h1 class="myName">Josan Johnata</h1>
-            <p class="intro-position">
-              <span>FULLSTACK WEB DEVELOPER</span>
-              <span>INFORMATION SECURITY ANALYST</span>
-              <span>CYBER SECURITY</span>
-            </p>
-            <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-          </div>
-        </div>
-      </div>
-      <ul class="intro-social">
-        <li><a href="https://github.com/josanjohnata"><i class="fa fa-git"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/josanjohnata/"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://www.instagram.com/johnatapontes/"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="https://wa.me/85998139612"><i class="fa fa-whatsapp"></i></a></li>
-      </ul>
-  </section>
-  <section id="about">
+	<!-- header 
+   ================================================== -->
+	<header>
+		<div class="row">
 
-    <div id="about">
-      <div class="col-twelve">
-        <div class="intro-info">
-          <h5>ABOUT</h5>
-          <h1>Let me introduce myself.</h1>
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-          <div class="intro-info">
+				<!-- <div class="logo"> -->
+				<div class="logo">
+					<a href="index.html">Home</a>
+				</div>
 
-            <img src="./images/photo.png" alt="Profile Picture" class="myPhoto">
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About</a></li>
+						<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll" href="#services" title="">Services</a></li>
+						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
 
-            <p class="lead">Hello, I'm Johnata, I'm 29 years old, born and raised in Ceará, Brazil.<br>
+		</div> <!-- /row -->
+	</header> <!-- /header -->
 
-              <br>I'm a web professional who loves to create technological products and solutions.<br>
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
 
-              <br>Recently, I developed a clone page of <a
-                src="https://josanjohnata.github.io/project-netflix-final/">Netflix</a> and in this project it was a
-              challenge that I set myself to practice my knowledge with API requests and how to search
-              for information in external places, I also learned about handling LocalStorage.<br>
+		<div class="intro-overlay"></div>
 
-              I also have other Front-End development projects, data encryption, machine learning and
-              reporting and dashboards.<br>
+		<div class="intro-content">
+			<div class="row">
 
-              <br>I would love to combine my passion for learning and solving "puzzles" with my skills
-              as a developer, information security analyst and cyber security to continue to build custom products
-              for individuals and businesses.
-            </p>
+				<div class="col-twelve">
 
-          </div>
+					<h5>I'm</h5>
+					<h1>Josan Johnata</h1>
 
-        </div>
-      </div>
+					<p class="intro-position">
+						<span>FullStack web Developer</span>
+						<span>Information Security Analyst</span>
+						<span>Cyber security</span>
+					</p>
 
-      <div class="row about-content">
-        <div id="left" class="col-six tab-full">
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me <i
+            class="fas fa-angle-down"></i></a>
 
-          <h3>Profile</h3>
-          <p class="subtitle">
-            I'm majoring in Information Security slated for July 2022 and Fullstack Web Development
-            slated for March 2022. I'm writing a concluding article called: <strong>The security of
-              our data on social networks.</strong><br>
+				</div>
 
-            <br>Throughout my professional and academic career, I have used my passion for working
-            with technology and developing skills with development and security.
+			</div>
+		</div> <!-- /intro-content -->
 
+		<ul class="intro-social">
+			<li><a href="https://github.com/josanjohnata"><i class="bi bi-github"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/josanjohnata/"><i class="bi bi-linkedin"></i></a></li>
+			<li><a href="https://www.instagram.com/johnatapontes/"><i class="bi bi-instagram"></i></a></li>
+			<li><a href="https://wa.me/85998139612"><i class="bi bi-whatsapp"></i></a></li>
+		</ul> <!-- /intro-social -->
+
+	</section> <!-- /intro -->
+
+
+	<!-- about section
+   ================================================== -->
+	<section id="about">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>About</h5>
+				<h1>Let me introduce myself.</h1>
+
+				<div class="intro-info">
+
+					<img src="./images/photo.png" alt="Profile Picture">
+
+					<p class="lead">Hello, I'm Johnata, I'm 29 years old, born and raised in Ceará, Brazil.<br>
+
+            <br>I'm a web professional who loves to create technological products and solutions.<br>
+
+            <br>Recently, I developed a clone page of <a
+              target="_blank" href="https://josanjohnata.github.io/project-netflix-final/" style="cursor: pointer">Netflix</a> and in this project it was a
+            challenge that I set myself to practice my knowledge with API requests and how to search
+            for information in external places, I also learned about handling LocalStorage.<br>
+
+            I also have other Front-End development projects, data encryption, machine learning and
+            reporting and dashboards.<br>
+
+            <br>I would love to combine my passion for learning and solving "puzzles" with my skills
+            as a developer, information security analyst and cyber security to continue to build custom products
+            for individuals and businesses.
           </p>
-          <ul class="info-list">
-            <li>
-              <strong>Fullname:</strong>
-              <span>Josan Johnata Paixão Pontes</span>
-            </li>
-            <li>
-              <strong>Birth Date:</strong>
-              <span>March 17, 1992</span>
-            </li>
-            <li>
-              <strong>Job:</strong>
-              <span>
-                Computer Network Expansion Manager and Front-End Web Develop<br>
-                Freelancer<br>
-              </span>
-            </li>
-            <li>
-              <strong>Website:</strong>
-              <span>
-                <b>Medium:</b><br>
-                Will be available soon<br><br>
+				</div>
 
-                <b>LinkedIn:</b><br>
-                https://www.linkedin.com/in/josanjohnata/<br><br>
+			</div>
+		</div> <!-- /section-intro -->
 
-                <b>GitHub:</b><br>
-                https://github.com/johnatapontes<br>
-              </span>
-            </li>
-            <li>
-              <strong>Email:</strong>
-              <span>josanjohnata@gmail.com</span>
-            </li>
-          </ul>
-        </div>
-        <div class="col-six tab-full">
-          <h3>Skills</h3>
-          <p class="subtitle">Here, I share with you some of my main technical skills and level of knowledge about
-            each one:</p>
-          <ul class="skill-bars">
-            <li>
-              <div class="progress percent45"><span>45%</span></div>
-              <strong>Python</strong>
-            </li>
-            <li>
-              <div class="progress percent75"><span>75%</span></div>
-              <strong>JavaScript</strong>
-            </li>
-            <li>
-              <div class="progress percent80"><span>80%</span></div>
-              <strong>React JS</strong>
-            </li>
-            <li>
-              <div class="progress percent80"><span>80%</span></div>
-              <strong>Linux</strong>
-            </li>
-            <li>
-              <div class="progress percent75"><span>75%</span></div>
-              <strong>Web Development</strong>
-            </li>
-            <li>
-              <div class="progress percent75"><span>75%</span></div>
-              <strong>SQL and No-SQL Code</strong>
-            </li>
-            <li>
-              <div class="progress percent80"><span>80%</span></div>
-              <strong>Cyber Security</strong>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="row button-section">
-        <div class="col-twelve">
-          <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-          <a href="" title="Download CV" class="button button-primary">Download CV</a>
-        </div>
-  </section>
-  <section id="resume" class="grey-section">
+		<div class="row about-content">
 
-    <div class="row section-intro">
-      <div class="col-twelve">
+			<div class="col-six tab-full">
 
-        <h5>Resume</h5>
-        <h1>More of my credentials.</h1>
+				<h3>Profile</h3>
+				<p class="subtitle">
+          I'm majoring in Information Security slated for July 2022 and Fullstack Web Development
+          slated for March 2022. I'm writing a concluding article called: <strong>The security of
+            our data on social networks.</strong><br>
 
-        <p class="lead">My professional objective is to work in the main technology areas with emphasis on the
-          administration of SQL and NoSQL databases and in engineering and data science pipelines. In this way,
-          contributing to the growth of the business and attracting customers through personalized services and
-          products.<br>
-          <br>My ambition is to become a reference and respected professional in the data communities and in the job
-          market. For that, I have dedicated time and daily studies to improve my knowledge and skills with data.
-        </p>
+          <br>Throughout my professional and academic career, I have used my passion for working
+          with technology and developing skills with development and security.
 
-      </div>
-    </div> <!-- /section-intro-->
+        </p>		
+				<ul class="info-list">
+					<li>
+						<strong>Fullname:</strong>
+						<span>Josan Johnata Paixão Pontes</span>
+					</li>
+					<li>
+						<strong>Birth Date:</strong>
+						<span>March 17, 1992</span>
+					</li>
+					<li>
+						<strong>Job:</strong>
+						<span>
+              Computer Network Expansion Manager and Front-End Web Develop<br>
+              Freelancer<br>
+            </span>
+					</li>
+					<li>
+            <strong>Website:</strong>
+            <span>
+              <b>Medium:</b><br>
+              Will be available soon<br><br>
 
-    <div class="row resume-timeline">
+              <b>LinkedIn:</b><br>
+              https://www.linkedin.com/in/josanjohnata/<br><br>
 
-      <div class="col-twelve resume-header">
+              <b>GitHub:</b><br>
+              https://github.com/johnatapontes<br>
+            </span>
+          </li>
+          <li>
+            <strong>Email:</strong>
+            <span>josanjohnata@gmail.com</span>
+          </li>
 
-        <h2>Work Experience</h2>
+				</ul> <!-- /info-list -->
 
-      </div> <!-- /resume-header -->
+			</div>
 
-      <div class="col-twelve">
+			<div class="col-six tab-full">
 
-        <div class="timeline-wrap">
+				<h3>Skills</h3>
+				<p class="subtitle">Here, I share with you some of my main technical skills and level of knowledge about each one:</p>
 
-          <div class="timeline-block">
+				<ul class="skill-bars">
+          <li>
+            <div class="progress percent45"><span>45%</span></div>
+            <strong>Python</strong>
+          </li>
+          <li>
+            <div class="progress percent75"><span>75%</span></div>
+            <strong>JavaScript</strong>
+          </li>
+          <li>
+            <div class="progress percent80"><span>80%</span></div>
+            <strong>React JS</strong>
+          </li>
+          <li>
+            <div class="progress percent80"><span>80%</span></div>
+            <strong>Linux</strong>
+          </li>
+          <li>
+            <div class="progress percent75"><span>75%</span></div>
+            <strong>Web Development</strong>
+          </li>
+          <li>
+            <div class="progress percent75"><span>75%</span></div>
+            <strong>SQL and No-SQL Code</strong>
+          </li>
+          <li>
+            <div class="progress percent80"><span>80%</span></div>
+            <strong>Cyber Security</strong>
+          </li>
+        </ul> <!-- /skill-bars -->
 
-            <div class="timeline-ico">
-              <i class="fa fa-graduation-cap"></i>
-            </div>
+			</div>
 
-            <div class="timeline-header">
-              <h3>Oracle DBA</h3>
-              <p>November 2019 - Present</p>
-            </div>
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+				<a href="#" title="Download CV"
+					class="button button-primary">Download CV</a>
+			</div>
+		</div>
+
+	</section> <!-- /process-->
+
+
+	<!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Resume</h5>
+				<h1>More of my credentials.</h1>
+
+				<p class="lead">My professional objective is to work in the main technology areas with emphasis on the administration of SQL and NoSQL databases and in engineering and data science pipelines. In this way, contributing to the growth of the business and attracting customers through personalized services and products.<br>
+					<br>My ambition is to become a reference and respected professional in the data communities and in the job market. For that, I have dedicated time and daily studies to improve my knowledge and skills with data.</p>
+
+			</div>
+		</div> <!-- /section-intro-->
+
+		<div class="row resume-timeline">
+
+			<div class="col-twelve resume-header">
+
+				<h2>Work Experience</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+					<div class="timeline-block">
+
+						<div class="timeline-ico">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+
+						<div class="timeline-header">
+							<h3>Vip Net Solitions</h3>
+							<p>November 2019 - Present</p>
+						</div>
 
             <div class="timeline-content">
               <h4>Vip net solutions </h4>
@@ -235,28 +295,36 @@
                 molestiae.</p>
             </div>
 
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row resume-timeline">
+										
+				</div> <!-- /timeline-block -->
 
-      <div class="col-twelve resume-header">
-        <h2>Education</h2>
-      </div>
-      <div class="col-twelve">
+			</div> <!-- /timeline-wrap -->
 
-        <div class="timeline-wrap">
+		</div> <!-- /col-twelve -->
 
-        </div>
+		</div> <!-- /resume-timeline -->
 
-        <div class="timeline-block">
+		<div class="row resume-timeline">
 
-          <div class="timeline-ico">
-            <i class="fa fa-briefcase"></i>
-          </div>
+			<div class="col-twelve resume-header">
 
-          <div class="timeline-header">
+				<h2>Education</h2>
+
+			</div> <!-- /resume-header -->
+
+			<div class="col-twelve">
+
+				<div class="timeline-wrap">
+
+				</div> <!-- /timeline-block -->
+
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
+					</div>
+
+					<div class="timeline-header">
             <h3>Bachelor Degree</h3>
             <p>February 2019 - July 2022</p>
           </div>
@@ -266,15 +334,15 @@
             <p>Information Security</p>
           </div>
 
-        </div>
+				</div> <!-- /timeline-block -->
 
-        <div class="timeline-block">
+				<div class="timeline-block">
 
-          <div class="timeline-ico">
-            <i class="fa fa-briefcase"></i>
-          </div>
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
+					</div>
 
-          <div class="timeline-header">
+					<div class="timeline-header">
             <h3>Free Course</h3>
             <p>March 2021 - March 2022</p>
           </div>
@@ -284,15 +352,15 @@
             <p>FullStack Web Development</p>
           </div>
 
-        </div>
+				</div> <!-- /timeline-block -->
 
-        <div class="timeline-block">
+				<div class="timeline-block">
 
-          <div class="timeline-ico">
-            <i class="fa fa-briefcase"></i>
-          </div>
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
+					</div>
 
-          <div class="timeline-header">
+					<div class="timeline-header">
             <h3>BootCamp</h3>
             <p>November 2020 - February 2021</p>
           </div>
@@ -308,15 +376,15 @@
             </p>
           </div>
 
-        </div>
+				</div> <!-- /timeline-block -->
 
-        <div class="timeline-block">
+				<div class="timeline-block">
 
-          <div class="timeline-ico">
-            <i class="fa fa-briefcase"></i>
-          </div>
+					<div class="timeline-ico">
+						<i class="fa fa-briefcase"></i>
+					</div>
 
-          <div class="timeline-header">
+					<div class="timeline-header">
             <h3>Specialization</h3>
             <p>June 2021</p>
           </div>
@@ -326,7 +394,7 @@
             <p>Cyber Security: Cloud Security and Server Structures.</p>
           </div>
 
-        </div>
+				</div> <!-- /timeline-block -->
 
         <div class="timeline-block">
 
@@ -345,413 +413,622 @@
           </div>
 
         </div>
-      </div>
-    </div>
-  </section>
+
+			</div> <!-- /timeline-wrap -->
+
+		</div> <!-- /col-twelve -->
+
+		</div> <!-- /resume-timeline -->
+
+	</section> <!-- /features -->
 
 
-  <section id="portfolio">
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
 
-    <div class="row section-intro">
-      <div class="col-twelve">
+		<div class="row section-intro">
+			<div class="col-twelve">
 
-        <h5>Portfolio</h5>
-        <h1>Check Out Some of My Works.</h1>
+				<h5>Portfolio</h5>
+				<h1>Check Out Some of My Works.</h1>
 
-        <p class="lead">I am very happy, welcomed and grateful to present the works that I have participated and
-          developed. Below, I share a brief presentation of projects performed:</p>
+				<p class="lead">I am very happy, welcomed and grateful to present the works that I have participated and developed. Below, I share a brief presentation of projects performed:</p>
 
-      </div>
-    </div> <!-- /section-intro-->
+			</div>
+		</div> <!-- /section-intro-->
 
-    <div class="row portfolio-content">
+		<div class="row portfolio-content">
 
-      <div class="col-twelve">
+			<div class="col-twelve">
 
-        <!-- portfolio-wrapper -->
-        <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+				<!-- portfolio-wrapper -->
+				<!-- <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
 
-          <div class="bgrid folio-item">
-            <div class="item-wrap">
-              <img src="images/portfolio/WebScraping5.jpg" alt="Liberty">
-              <a href="#modal-01" class="overlay">
-                <div class="folio-item-table">
-                  <div class="folio-item-cell">
-                    <h3 class="folio-title">Web Scraping</h3>
-                    <span class="folio-types">
-                      Data Scraping from Internet Sites
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div> <!-- /folio-item -->
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/WebScraping5.jpg" alt="Liberty">
+							<a href="#modal-01" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Web Scraping</h3>
+										<span class="folio-types">
+											Data Scraping from Internet Sites
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> /folio-item -->
 
-          <div class="bgrid folio-item">
-            <div class="item-wrap">
-              <img src="images/portfolio/DisasterResponsePipeline.jpg" alt="Shutterbug">
-              <a href="#modal-02" class="overlay">
-                <div class="folio-item-table">
-                  <div class="folio-item-cell">
-                    <h3 class="folio-title">Disaster Response Pipeline</h3>
-                    <span class="folio-types">
-                      Data Engineering - Capture, analysis, processing and presentation of messages in times of disaster
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div> <!-- /folio-item -->
+					<!-- <div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/DisasterResponsePipeline.jpg" alt="Shutterbug">
+							<a href="#modal-02" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Disaster Response Pipeline</h3>
+										<span class="folio-types">
+											Data Engineering - Capture, analysis, processing and presentation of messages in times of disaster
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> /folio-item -->
 
-          <div class="bgrid folio-item">
-            <div class="item-wrap">
-              <img src="images/portfolio/ChurnCustomers4.jpg" alt="Clouds">
-              <a href="#modal-03" class="overlay">
-                <div class="folio-item-table">
-                  <div class="folio-item-cell">
-                    <h3 class="folio-title">Predicting Churning Customers Using CRISP-DM Methodology</h3>
-                    <span class="folio-types">
-                      Data Scientist - Identifying Customer Churn Generation
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div> <!-- /folio-item -->
+					<!-- <div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/ChurnCustomers4.jpg" alt="Clouds">
+							<a href="#modal-03" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Predicting Churning Customers Using CRISP-DM Methodology</h3>
+										<span class="folio-types">
+											Data Scientist - Identifying Customer Churn Generation
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> /folio-item -->
 
-          <div class="bgrid folio-item">
-            <div class="item-wrap">
-              <img src="images/portfolio/EDA3.jpg" alt="Beetle">
-              <a href="#modal-04" class="overlay">
-                <div class="folio-item-table">
-                  <div class="folio-item-cell">
-                    <h3 class="folio-title">Auto and Command Line Exploratory Data Analysis (EDA)</h3>
-                    <span class="folio-types">
-                      Data Analysis and Reporting
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div> <!-- /folio-item -->
+					<!-- <div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/portfolio/EDA3.jpg" alt="Beetle">
+							<a href="#modal-04" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Auto and Command Line Exploratory Data Analysis (EDA)</h3>
+										<span class="folio-types">
+											Data Analysis and Reporting
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div> /folio-item -->
 
-          <!-- modal popups - begin
-              ============================================================= -->
-          <div id="modal-01" class="popup-modal slider mfp-hide">
+					<!-- modal popups - begin
+	            ============================================================= -->
+					<div id="modal-01" class="popup-modal slider mfp-hide">
 
-            <div class="media">
-              <img src="images/portfolio/modals/m-WebScraping5.jpg" alt="" />
-            </div>
+						<div class="media">
+							<img src="images/portfolio/modals/m-WebScraping5.jpg" alt="" />
+						</div>
 
-            <div class="description-box">
-              <h4>Web Scraping</h4>
-              <p>The motivation for this project was to create a knowledge base to provide structured data in CSV format
-                of vehicle advertisements on the OLX website. In this way, this knowledge base can be used in a data
-                pipeline to apply a machine learning model to estimate vehicle value, categorize vehicle types as well
-                as identify possible groupings in the data.</p>
+						<div class="description-box">
+							<h4>Web Scraping</h4>
+							<p>The motivation for this project was to create a knowledge base to provide structured data in CSV format of vehicle advertisements on the OLX website. In this way, this knowledge base can be used in a data pipeline to apply a machine learning model to estimate vehicle value, categorize vehicle types as well as identify possible groupings in the data.</p>
 
-              <div class="categories">Category: Data Engineer-Scientist</div>
-            </div>
+							<div class="categories">Category: Data Engineer-Scientist</div>
+						</div>
 
-            <div class="link-box">
-              <a href="https://github.com/HenriqueMartinsPrado/Projects-Python-Web-Scraping">Details</a>
-              <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
+						<div class="link-box">
+							<a href="https://github.com/HenriqueMartinsPrado/Projects-Python-Web-Scraping">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-          </div> <!-- /modal-01 -->
+					</div> <!-- /modal-01 -->
 
-          <div id="modal-02" class="popup-modal slider mfp-hide">
+					<div id="modal-02" class="popup-modal slider mfp-hide">
 
-            <div class="media">
-              <img src="images/portfolio/modals/m-DisasterResponsePipeline.jpg" alt="" />
-            </div>
+						<div class="media">
+							<img src="images/portfolio/modals/m-DisasterResponsePipeline.jpg" alt="" />
+						</div>
 
-            <div class="description-box">
-              <h4>Disaster Response Pipeline</h4>
-              <p>The motivation for developing this project was to analyze disaster data offered by the Figure Eight
-                data set. In this data set, real messages sent during disaster events were found. Thus, using this data
-                set, a machine learning pipeline was created so that it was possible to send the messages to an
-                appropriate disaster relief agency.</p>
+						<div class="description-box">
+							<h4>Disaster Response Pipeline</h4>
+							<p>The motivation for developing this project was to analyze disaster data offered by the Figure Eight data set. In this data set, real messages sent during disaster events were found. Thus, using this data set, a machine learning pipeline was created so that it was possible to send the messages to an appropriate disaster relief agency.</p>
 
-              <div class="categories">Category: Data Engineering</div>
-            </div>
+							<div class="categories">Category: Data Engineering</div>
+						</div>
 
-            <div class="link-box">
-              <a href="https://github.com/HenriqueMartinsPrado/Project-Disaster-Response-Pipeline">Details</a>
-              <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
+						<div class="link-box">
+							<a href="https://github.com/HenriqueMartinsPrado/Project-Disaster-Response-Pipeline">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-          </div> <!-- /modal-02 -->
+					</div> <!-- /modal-02 -->
 
-          <div id="modal-03" class="popup-modal slider mfp-hide">
+					<div id="modal-03" class="popup-modal slider mfp-hide">
 
-            <div class="media">
-              <img src="images/portfolio/modals/m-ChurnCustomers4.jpg" alt="" />
-            </div>
+						<div class="media">
+							<img src="images/portfolio/modals/m-ChurnCustomers4.jpg" alt="" />
+						</div>
 
-            <div class="description-box">
-              <h4>Predicting Churning Customers Using CRISP-DM Methodology</h4>
-              <p>The development of this project aimed to identify the churn generation of customers. The project's
-                motivation was to analyze patterns, trends and predictions extracted from the data using machine
-                learning models capable of identifying the significant decrease in the use of services and products by
-                customers generating churn. The importance of development is precisely to provide companies with the
-                possibility to identify the decrease in consumption of their businesses and to act in order to identify
-                the problems that caused this decrease, as well as to explore new possibilities to retain and attract
-                new customers with differentiated services and new products.<br>
+						<div class="description-box">
+							<h4>Predicting Churning Customers Using CRISP-DM Methodology</h4>
+							<p>The development of this project aimed to identify the churn generation of customers. The project's motivation was to analyze patterns, trends and predictions extracted from the data using machine learning models capable of identifying the significant decrease in the use of services and products by customers generating churn. The importance of development is precisely to provide companies with the possibility to identify the decrease in consumption of their businesses and to act in order to identify the problems that caused this decrease, as well as to explore new possibilities to retain and attract new customers with differentiated services and new products.<br>
 
-                <br><a href="https://hmartins-prado.medium.com/"><i class="fa fa-magic"></i>Click here to view the
-                  Medium Post</a>
+							<br><a href="https://hmartins-prado.medium.com/"><i class="fa fa-magic"></i>Click here to view the Medium Post</a>
 
 
-              </p>
+							</p>
 
-              <div class="categories">Category: Data Scientist - Identifying Customer Churn Generation</div>
-            </div>
+							<div class="categories">Category: Data Scientist - Identifying Customer Churn Generation</div>
+						</div>
 
-            <div class="link-box">
-              <a href="https://github.com/HenriqueMartinsPrado/Capstone-Project-Data-Scientist-Nano-Degree">Details</a>
-              <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
+						<div class="link-box">
+							<a href="https://github.com/HenriqueMartinsPrado/Capstone-Project-Data-Scientist-Nano-Degree">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-          </div> <!-- /modal-03 -->
+					</div> <!-- /modal-03 -->
 
-          <div id="modal-04" class="popup-modal slider mfp-hide">
+					<div id="modal-04" class="popup-modal slider mfp-hide">
 
-            <div class="media">
-              <img src="images/portfolio/modals/m-EDA3.jpg" alt="" />
-            </div>
+						<div class="media">
+							<img src="images/portfolio/modals/m-EDA3.jpg" alt="" />
+						</div>
 
-            <div class="description-box">
-              <h4>Beetle</h4>
-              <p>The motivation to develop this project was to create ways to provide a quick overview of a data set
-                through command lines developed with the Python language and the pandas_profiling and sweetviz
-                libraries. These approaches allow for speed gains in the understanding and preparation of data within a
-                pipeline and in the wake of projects. Also, the libraries used allow reports to be generated so that
-                they can be shared with all team members involved in the data project and provide a dissemination of
-                knowledge.</p>
+						<div class="description-box">
+							<h4>Beetle</h4>
+							<p>The motivation to develop this project was to create ways to provide a quick overview of a data set through command lines developed with the Python language and the pandas_profiling and sweetviz libraries. These approaches allow for speed gains in the understanding and preparation of data within a pipeline and in the wake of projects. Also, the libraries used allow reports to be generated so that they can be shared with all team members involved in the data project and provide a dissemination of knowledge.</p>
 
-              <div class="categories">Category: Data Analysis and Reporting</div>
-            </div>
+							<div class="categories">Category: Data Analysis and Reporting</div>
+						</div>
 
-            <div class="link-box">
-              <a
-                href="https://github.com/HenriqueMartinsPrado/Projects-Auto-and-Command-Line-EDA-Exploratory_Data_Analysis">Details</a>
-              <a href="#" class="popup-modal-dismiss">Close</a>
-            </div>
+						<div class="link-box">
+							<a href="https://github.com/HenriqueMartinsPrado/Projects-Auto-and-Command-Line-EDA-Exploratory_Data_Analysis">Details</a>
+							<a href="#" class="popup-modal-dismiss">Close</a>
+						</div>
 
-          </div> <!-- /modal-04 -->
+					</div> <!-- /modal-04 -->
 
 
-          <!-- modal popups - end
-              ============================================================= -->
+					<!-- modal popups - end
+	            ============================================================= -->
 
-        </div> <!-- /portfolio-wrapper -->
+				</div> <!-- /portfolio-wrapper -->
 
-      </div> <!-- /twelve -->
+			</div> <!-- /twelve -->
 
-    </div> <!-- /portfolio-content -->
+		</div> <!-- /portfolio-content -->
 
-  </section>
-  <section id="cta" class="grey-section">
+	</section> <!-- /portfolio -->
 
-    <div class="row cta-content">
 
-      <!-- <div class="col-twelve section-ads"> -->
+	<!-- CTA Section
+   ================================================== -->
+	<section id="cta" class="grey-section">
 
-      <h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Certifications Badges</a></h2>
+		<div class="row cta-content">
 
-      <p class="lead">
-        I share below some certifications acquired during my career that reflect hours of study, time, effort and
-        discipline for continuous learning.
-        <!-- <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">
+			<!-- <div class="col-twelve section-ads"> -->
+
+				<h2 class="h01"><a href="ww.dreamhost.com/r.cgi?287326|STYLESHOUT">Certifications Badges</a></h2>
+
+				<p class="lead">
+					I share below some certifications acquired during my career that reflect hours of study, time, effort and discipline for continuous learning.
+					<!-- <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">
 						<span>Testing</span></a>. Test 
 						<span> Test2</span> Test3 
 						<span> Test4</span>. -->
-        <!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
-      </p>
+					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->
+				</p>
 
-      <!-- <div class="action">
+				<!-- <div class="action">
 					<a class="button button-primary large" href="https://www.youracclaim.com/earner/earned">Checkout all my Badges</a>
 				</div> -->
 
-      <div class="action">
-        <div class="col-twelve">
-          <a href="files/Academic_Transcript20210126_HenriqueMartinsPrado.pdf" title="Download Certifications"
-            class="button button-primary">Checkout all my Badges</a>
-        </div>
-      </div>
+				<div class="action">
+					<div class="col-twelve">
+						<a href="files/Academic_Transcript20210126_HenriqueMartinsPrado.pf" title="Download Certifications"
+							class="button button-primary">Checkout all my Badges</a>
+					</div>
+				</div>
+		
+
+			</div>
+
+		</div> <!-- /cta-content -->
+
+	</section> <!-- /cta -->
 
 
-    </div>
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
 
-    </div> <!-- /cta-content -->
+		<div class="overlay"></div>
 
-  </section>
+		<div class="row section-intro">
+			<div class="col-twelve">
 
-  <section id="services">
+				<h5>Services</h5>
+				<h1>What Can I Do For You?</h1>
 
-    <div class="overlay"></div>
+				<p class="lead">I would love to meet your need and help you solve a problem, as well as create a customized solution or product for your business.</p>
 
-    <div class="row section-intro">
-      <div class="col-twelve">
+			</div>
+		</div> <!-- /section-intro -->
 
-        <h5>Services</h5>
-        <h1>What Can I Do For You?</h1>
+		<div class="row services-content">
 
-        <p class="lead">I would love to meet your need and help you solve a problem, as well as create a customized
-          solution or product for your business.</p>
+			<div id="owl-slider" class="owl-carousel services-list">
 
-      </div>
-    </div> <!-- /section-intro -->
+				<div class="service">
 
-    <div class="row services-content">
+					<span class="icon"><i class="icon-earth"></i></span>
 
-      <div id="owl-slider" class="owl-carousel services-list">
+					<div class="service-content">
 
-        <div class="service">
+						<h3>Web Development</h3>
 
-          <span class="icon"><i class="icon-earth"></i></span>
+						<p class="desc">Collection of data from the web, or web scraping, mining that allows the extraction of data from web sites, converting them into structured information for later analysis. This approach allows adding new information to an existing data set, as well as starting a new knowledge base.
+						</p>
 
-          <div class="service-content">
+					</div>
 
-            <h3>Web Scraping</h3>
+				</div> <!-- /service -->
 
-            <p class="desc">Collection of data from the web, or web scraping, mining that allows the extraction of data
-              from web sites, converting them into structured information for later analysis. This approach allows
-              adding new information to an existing data set, as well as starting a new knowledge base.
-            </p>
+				<div class="service">
 
-          </div>
+					<span class="icon"><i class="icon-window"></i></span>
 
-        </div> <!-- /service -->
+					<div class="service-content">
 
-        <div class="service">
+						<h3>Information Security</h3>
 
-          <span class="icon"><i class="icon-window"></i></span>
+						<p class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, possimus. Quo dolorum deleniti qui quae aspernatur necessitatibus expedita similique impedit tenetur, molestias modi cum eos illum vitae laborum, assumenda praesentium?
+						</p>
 
-          <div class="service-content">
+					</div>
 
-            <h3>Machine Learning Pipeline</h3>
+				</div> <!-- /service -->
 
-            <p class="desc">Structuring processes to move data from source to destination. This process constitutes
-              several data treatments, such as: extraction, cleaning, parsing, encoding, duplicate data, dummy
-              variables, featuring engineering and others.
-            </p>
+				<div class="service">
 
-          </div>
+					<span class="icon"><i class="icon-paint-brush"></i></span>
 
-        </div> <!-- /service -->
+					<div class="service-content">
 
-        <div class="service">
+						<h3>Cyber Security</h3>
 
-          <span class="icon"><i class="icon-paint-brush"></i></span>
+						<p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos laudantium quaerat voluptates quisquam, quam voluptas sapiente voluptatibus asperiores quis. Saepe commodi temporibus beatae aut quam ex minus illo vel pariatur!
+						</p>
 
-          <div class="service-content">
+					</div>
 
-            <h3>Database Objects and Queries</h3>
+				</div> <!-- /service -->
 
-            <p class="desc">Database creation, permissions analysis for logins and users, database modeling, purge
-              routines, backup / restore routines, database migrations, jobs, views, stored procedures, query tuning,
-              bank administration among other activities.
-            </p>
+				<div class="service">
 
-          </div>
+					<span class="icon"><i class="icon-toggles"></i></span>
 
-        </div> <!-- /service -->
+					<!-- <div class="service-content">
 
-        <div class="service">
+						<h3>Exploratory Data Analysis (EDA)</h3>
 
-          <span class="icon"><i class="icon-toggles"></i></span>
+						<p class="desc">Exploratory analysis of data sets in order to provide a complete understanding of them. Through this service I can help you apply concepts and static practices to describe the entire data set. In addition, generate reports using automatic approaches using the libraries pandas_profiling and sweetviz.
+						</p>
 
-          <div class="service-content">
+					</div> -->
 
-            <h3>Exploratory Data Analysis (EDA)</h3>
+				</div> <!-- /service -->
 
-            <p class="desc">Exploratory analysis of data sets in order to provide a complete understanding of them.
-              Through this service I can help you apply concepts and static practices to describe the entire data set.
-              In addition, generate reports using automatic approaches using the libraries pandas_profiling and
-              sweetviz.
-            </p>
+				<div class="service">
 
-          </div>
+					<span class="icon"><i class="icon-image"></i></span>
 
-        </div> <!-- /service -->
+					<!-- <div class="service-content">
 
-        <div class="service">
+						<h3>Dashboards using PowerBI</h3>
 
-          <span class="icon"><i class="icon-image"></i></span>
+						<p class="desc">Creation of dashboards with an excellent storytelling about the data set. Also, creation of queries to extract data from databases to supply the reports.
+						</p>
 
-          <div class="service-content">
+					</div> -->
 
-            <h3>Dashboards using PowerBI</h3>
+				</div> <!-- /service -->
 
-            <p class="desc">Creation of dashboards with an excellent storytelling about the data set. Also, creation of
-              queries to extract data from databases to supply the reports.
-            </p>
+				<div class="service">
 
-          </div>
+					<span class="icon"><i class="icon-chat"></i></span>
 
-        </div> <!-- /service -->
+					<!-- <div class="service-content">
 
-        <div class="service">
+						<h3>Predicting Churning Customers</h3>
 
-          <span class="icon"><i class="icon-chat"></i></span>
+						<p class="desc">Identify the churn generation of customers by analyzing patterns, trends and forecasts extracted from the data through machine learning models capable of identifying the significant drop in the use of services and products by customers.
+						</p>
 
-          <div class="service-content">
+					</div> -->
 
-            <h3>Predicting Churning Customers</h3>
+				</div> <!-- /service -->
 
-            <p class="desc">Identify the churn generation of customers by analyzing patterns, trends and forecasts
-              extracted from the data through machine learning models capable of identifying the significant drop in the
-              use of services and products by customers.
-            </p>
+			</div> <!-- /services-list -->
 
-          </div>
+		</div> <!-- /services-content -->
 
-        </div> <!-- /service -->
-
-      </div> <!-- /services-list -->
-
-    </div> <!-- /services-content -->
-
-  </section>
+	</section> <!-- /services -->
 
 
-  <footer>
-    <div class="row">
-      <div class="col-six tab-full pull-right social">
+	<!-- stats Section
+   ================================================== -->
+	<!-- <section id="stats" class="count-up">
 
-        <ul class="footer-social">
-          <li><a href="https://github.com/josanjohnata"><i class="bi bi-github"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/josanjohnata/"><i class="bi bi-linkedin"></i></a>
-          </li>
-          <li><a href="https://www.instagram.com/johnatapontes/"><i class="bi bi-instagram"></i></a>
-          </li>
-          <li><a href="https://wa.me/85998139612"><i class="bi bi-whatsapp"></i></a></li>
-        </ul>
+		<div class="row">
+			<div class="col-twelve">
 
-      </div>
-    </div>
-    <div class="col-eight tab-full">
-      <div class="copyright">
-        <span>© Copyright 2018 </span>
-        <span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
-        <span>Distributed by <a href="https://themewagon.com/">themewagon</a></span>
-      </div>
-    </div>
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
 
-    <div id="go-top">
-      <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-    </div>
+					<div class="bgrid stat">
 
-    </div>
-  </footer>
-  <div id="preloader">
-    <div id="loader"></div>
-  </div>
-  <script src="js/jquery-2.1.3.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							8
+						</h3>
+
+						<h5 class="stat-title">
+							Open Source Projects Completed
+						</h5>
+
+					</div> /stat -->
+
+					<!-- <div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							14
+						</h3>
+
+						<h5 class="stat-title">
+							Years of experience
+						</h5>
+
+					</div> /stat -->
+
+					<!-- <div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							33
+						</h3>
+
+						<h5 class="stat-title">
+							Courses
+						</h5>
+
+					</div> /stat -->
+
+					<!-- <div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							19
+						</h3>
+
+						<h5 class="stat-title">
+							Certifcations
+						</h5>
+
+					</div> /stat -->
+
+					<!-- <div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							7
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+
+					</div> /stat -->
+
+					<!-- <div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1800
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div> /stat -->
+
+				<!-- </div> /stats-list -->
+
+			<!-- </div> /twelve -->
+		<!-- </div> /row -->
+
+	<!-- </section> /stats -->
+
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Contact</h5>
+				<h1>I'd love to talk with you.</h1>
+
+			</div>
+			
+		</div> <!-- /section-intro -->
+
+		<div class="row contact-form">
+
+			<div class="col-twelve">
+
+				<!-- form -->
+				<!-- <form name="contactForm" id="contactForm" method="post" action="">
+					<fieldset>
+
+						<div class="form-field">
+							<input name="contactName" type="text" id="contactName" placeholder="Name" value=""
+								minlength="2" required="">
+						</div>
+						<div class="form-field">
+							<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
+								required="">
+						</div>
+						<div class="form-field">
+							<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+						</div>
+						<div class="form-field">
+							<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10"
+								cols="50" required=""></textarea>
+						</div>
+						<div class="form-field">
+							<button class="submitform">Submit</button>
+							<div id="submit-loader">
+								<div class="text-loader">Sending...</div>
+								<div class="s-loader">
+									<div class="bounce1"></div>
+									<div class="bounce2"></div>
+									<div class="bounce3"></div>
+								</div>
+							</div>
+						</div>
+
+					</fieldset> -->
+				<!-- </form>  -->
+					<!-- Form End --> 
+
+				<!-- contact-warning -->
+				<div id="message-warning">
+				</div>
+				<!-- contact-success -->
+				<div id="message-success">
+					<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				</div>
+
+			</div> <!-- /col-twelve -->
+
+		</div> <!-- /contact-form -->
+
+		<div class="row contact-info">
+
+			<div class="col-four tab-full">
+
+				<div class="icon">
+					<i class="icon-pin"></i>
+				</div>
+
+				<h5>Where to find me</h5>
+
+				<p>
+					Fortaleza - CE<br>
+					Brazil
+				</p>
+
+			</div>
+
+			<div class="col-four tab-full collapse">
+
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+
+				<h5>Email Me At</h5>
+
+				<p>josanjohnata@gmail.com<br>
+				</p>
+
+			</div>
+
+			<div class="col-four tab-full">
+
+				<div class="icon">
+					<i class="icon-phone"></i>
+				</div>
+
+				<h5>Call Me At</h5>
+
+				<p>Mobile: (+55) 85 99813-9612<br></p>
+
+			</div>
+
+		</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
+
+
+	<!-- footer
+   ================================================== -->
+
+	<footer>
+		<div class="row">
+
+			<div class="col-six tab-full pull-right social">
+
+				<ul class="footer-social">
+					<li><a href="https://github.com/josanjohnata"><i class="bi bi-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/josanjohnata/"><i class="bi bi-linkedin"></i></a></li>
+					<li><a href="https://www.instagram.com/johnatapontes/"><i class="bi bi-instagram"></i></a></li>
+					<li><a href="https://wa.me/85998139612"><i class="bi bi-whatsapp"></i></a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-eight tab-full">
+				<div class="copyright">
+					<span>© Copyright 2021 by Josan Johnata </span>
+				</div>
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+		</div> <!-- /row -->
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="./script/jquery-2.1.3.min.js"></script>
+	<script src="./script/plugins.js"></script>
+	<script src="./script/main.js"></script>
 
 </body>
 

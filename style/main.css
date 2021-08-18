@@ -445,8 +445,6 @@
   *
   * ------------------------------------------------------------------- 
   */
-
-/*   
  #preloader {
    position: fixed;
    top: 0;
@@ -457,15 +455,11 @@
    z-index: 800;
    height: 100%;
    width: 100%;
- } */
-
- 
- /* .no-js #preloader, .oldie #preloader {
+ }
+ .no-js #preloader, .oldie #preloader {
    display: none;
- } */
-
-
- /* #loader {
+ }
+ #loader {
    position: absolute;
    left: 50%;
    top: 50%;
@@ -473,10 +467,8 @@
    height: 60px;
    margin: -30px 0 0 -30px;
    padding: 0;
- } */
-
-
- /* #loader:before {
+ }
+ #loader:before {
    content: "";
    border-top: 11px solid rgba(255, 255, 255, 0.1);
    border-right: 11px solid rgba(255, 255, 255, 0.1);
@@ -488,7 +480,7 @@
    border-radius: 50%;
    width: 60px;
    height: 60px;
- } */
+ }
  @-webkit-keyframes load {
    0% {
      -webkit-transform: rotate(0deg);
@@ -1307,8 +1299,8 @@
   *
   * ------------------------------------------------------------------- 
   */
- /* #intro {
-   background: #151515 url(../images/hero.jpg) no-repeat center bottom !important;
+ #intro {
+   background: #151515 url(../images/hero.jpg) no-repeat center bottom;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    background-size: cover;
@@ -1431,7 +1423,7 @@
  }
  .intro-social li a:hover, .intro-social li a:focus {
    color: #0084ff;
- } */
+ }
  
  /**
   * responsive:
