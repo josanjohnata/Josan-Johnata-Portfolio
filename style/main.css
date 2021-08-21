@@ -71,7 +71,7 @@ body {
 }
 body {
   background: #151515;
-  font-family: "Lora", serif;
+  font-family: 'Open Sans', serif !important;
   font-weight: 400px;
   font-size: 1.7rem;
   line-height: 3rem;
@@ -183,7 +183,7 @@ p img {
   margin: 0;
 }
 p.lead {
-  font-family: "Lora", serif;
+  font-family: 'Open Sans', serif;
   font-weight: 400px;
   font-size: 2rem;
   line-height: 1.8;
@@ -206,13 +206,13 @@ b {
 }
 em,
 i {
-  font-family: "Lora", serif;
+  font-family: 'Open Sans', serif;
   font-weight: 400px;
   font-style: italic;
 }
 strong,
 b {
-  font-family: "Lora", serif;
+  font-family: 'Open Sans', serif;
   font-weight: bold;
 }
 small {
@@ -374,7 +374,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "Lora";
+  font-family: 'Open Sans';
   font-weight: 400px;
 }
 th,
@@ -1476,7 +1476,7 @@ header .logo a {
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-  font-family: "Lora", serif;
+  font-family: 'Open Sans', serif;
   font-weight: 400px;
   font-size: 1.7rem;
   line-height: 2.4rem;
