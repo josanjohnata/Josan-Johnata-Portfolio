@@ -1468,7 +1468,7 @@ header .logo a {
   color: #0084ff;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 2.3rem;
+  font-size: 3.5rem;
   line-height: 1.565;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -1543,6 +1543,10 @@ header .logo a {
   display: inline-block;
   margin: 0 20px;
   padding: 0;
+}
+.intro-social li {
+  transform: scale(1.1) !important;
+
 }
 
 .intro-social li a,
