@@ -10,20 +10,18 @@
  *  02. base style overrides
  *  03. typography & general theme styles
  *  04. preloader
- *  05. forms
- *  06. buttons 
- *  07. other components
- *  08. common styles
- *  09. header styles
- *  10. intro
- *  11. about
- *  12. resume
- *  13. portfolio
- *  14. call-to-action section
- *  15. services
- *  16. stats
- *  17. contact
- *  18. footer
+ *  05. buttons 
+ *  06. other components
+ *  07. common styles
+ *  08. header styles
+ *  09. intro
+ *  10. about
+ *  11. resume
+ *  12. portfolio
+ *  13. services
+ *  14. stats
+ *  15. contact
+ *  16. footer
  *
  * =================================================================== 
  */
@@ -86,7 +84,7 @@ body {
   text-shadow: none;
   color: transparent;
   position: absolute;
-  right: 8px;
+  right: 90px;
   top: 20%;
   bottom: auto;
   border-radius: 100%;
@@ -469,6 +467,9 @@ img.pull-right {
 img.pull-left {
   margin: 0.9rem 2.4rem 0 0;
 }
+#education {
+  margin-left: -170px !important;
+}
 
 /**
   * block grid paddings - (_document-setup.scss) 
@@ -584,150 +585,6 @@ img.pull-left {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
-
-/** 
-  * ===================================================================
-  * 05. forms - (_forms.scss)
-  *
-  * ------------------------------------------------------------------- 
-  */
-fieldset {
-  border: none;
-}
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  display: block;
-  height: 6rem;
-  padding: 1.5rem 0;
-  border: 0;
-  outline: none;
-  vertical-align: middle;
-  color: #313131;
-  font-family: "Poppins", sans-serif;
-  font: weight 400px;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  max-width: 100%;
-  background: transparent;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.ss-custom-select {
-  position: relative;
-  padding: 0;
-}
-.ss-custom-select select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
-  appearance: none;
-  text-indent: 0.01px;
-  text-overflow: "";
-  margin: 0;
-  line-height: 3rem;
-  vertical-align: middle;
-}
-.ss-custom-select select option {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.ss-custom-select select::-ms-expand {
-  display: none;
-}
-.ss-custom-select::after {
-  content: "\f0d7";
-  font-family: "FontAwesome";
-  position: absolute;
-  top: 50%;
-  right: 1.5rem;
-  margin-top: -10px;
-  bottom: auto;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  font-size: 18px;
-  text-align: center;
-  pointer-events: none;
-  color: #252525;
-}
-
-/* IE9 and below */
-.oldie .ss-custom-select::after {
-  display: none;
-}
-textarea {
-  min-height: 25rem;
-}
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  color: #cc005f;
-  border-bottom: 1px solid #0084ff;
-}
-label,
-legend {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 1.4rem;
-  margin-bottom: 0.6rem;
-  color: #3b3b3b;
-  display: block;
-}
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline;
-}
-label > .label-text {
-  display: inline-block;
-  margin-left: 1rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400px;
-  line-height: inherit;
-}
-label > input[type="checkbox"],
-label > input[type="radio"] {
-  margin: 0;
-  position: relative;
-  top: 0.15rem;
-}
-
-/**
-  * Style Placeholder Text  
-  * -
-  */
-::-webkit-input-placeholder {
-  color: #a1a1a1;
-}
-:-moz-placeholder {
-  color: #a1a1a1; /* Firefox 18- */
-}
-::-moz-placeholder {
-  color: #a1a1a1; /* Firefox 19+ */
-}
-:-ms-input-placeholder {
-  color: #a1a1a1;
-}
-.placeholder {
-  color: #a1a1a1 !important;
 }
 
 /** 
@@ -2201,74 +2058,6 @@ header .logo a {
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
-}
-
-/** 
-  * ===================================================================
-  * 14. call-to-action section - (_layout.scss)
-  *
-  * ------------------------------------------------------------------- 
-  */
-#cta {
-  padding-top: 10.2rem;
-  padding-bottom: 9rem;
-  text-align: center;
-}
-#cta p.lead {
-  color: #6e6e6e;
-}
-.cta-content {
-  max-width: 640px;
-}
-.cta-thumb {
-  display: inline-block;
-  margin-bottom: 1.2rem;
-}
-.cta-thumb img {
-  height: 7.8rem;
-  width: 7.8rem;
-  border-radius: 50%;
-}
-
-/**
-  * section ads - (_layout.scss)
-  * ------------------------------------------------------------------- 
-  */
-.section-ads h2 {
-  position: relative;
-  padding-bottom: 2.1rem;
-}
-.section-ads h2::after {
-  content: "";
-  display: block;
-  height: 3px;
-  width: 80px;
-  background: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  margin-left: -40px;
-}
-.section-ads h2 a,
-.section-ads h2 a:visited {
-  color: #313131;
-}
-.section-ads span {
-  color: #3f0d39;
-}
-
-/**
-  * responsive:
-  * cta
-  * -------------------------------------------------------------------
-  */
-@media only screen and (max-width: 650px) {
-  .cta-content {
-    max-width: 650px;
-  }
-  .cta-content h2 {
-    font-size: 2.4rem;
-  }
 }
 
 /** 
