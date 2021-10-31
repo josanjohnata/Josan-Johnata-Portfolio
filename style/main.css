@@ -81,7 +81,7 @@ body {
 #language {
   text-decoration: none;
   display: flex;
-  width: 90px;
+  width: 50px;
   margin-top: -1.5px;
   text-shadow: none;
   color: transparent;
@@ -1372,6 +1372,11 @@ header .logo a {
 }
 
 /* navigation panel */
+.menu-flag {
+  
+  background-color:red;
+}
+
 #main-nav-wrap {
   display: block;
   width: 100%;
