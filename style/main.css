@@ -47,6 +47,18 @@ html {
   font-size: 10px;
 }
 
+::-webkit-scrollbar {
+  background-color: #151515;
+  width: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ebebeb;
+  border-radius: 5px;
+}
+
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 9.411764705882353px;
