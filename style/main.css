@@ -81,7 +81,7 @@ body {
 #language {
   text-decoration: none;
   display: flex;
-  width: 50px;
+  width: 50px !important;
   margin-top: -1.5px;
   text-shadow: none;
   color: transparent;
