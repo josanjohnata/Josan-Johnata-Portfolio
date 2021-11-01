@@ -89,18 +89,16 @@ body {
 }
 
 #language {
-  text-decoration: none;
-  display: flex;
-  width: 50px !important;
-  margin-top: -1.5px;
-  text-shadow: none;
-  color: transparent;
-  position: absolute;
-  right: 90px;
-  top: 20%;
-  bottom: auto;
-  border-radius: 100%;
+  border-radius: 50%;
+  float: right;
+  width: 50px;
+  height: 50px;
+  margin-right: 7.9%;
+  margin-top: 13px;
+  display: block;
+  position: relative;
 }
+
 #language li {
   list-style: none;
 }
@@ -1241,10 +1239,6 @@ header .logo a {
 }
 
 /* navigation panel */
-.menu-flag {
-  
-  background-color:red;
-}
 
 #main-nav-wrap {
   display: block;
@@ -1299,20 +1293,32 @@ header .logo a {
   header .top-bar {
     left: 0;
   }
+  .language-top-bar{
+    right: 0;
+  }
 }
 @media only screen and (max-width: 768px) {
   header .top-bar {
     left: 50px;
+  }
+  .language-top-bar{
+    right: 20px;
   }
 }
 @media only screen and (max-width: 600px) {
   header .top-bar {
     left: 35px;
   }
+  .language-top-bar{
+    right: 0px;
+  }
 }
 @media only screen and (max-width: 400px) {
   header .top-bar {
     left: 25px;
+  }
+  .language-top-bar{
+    right: 0px;
   }
 }
 
