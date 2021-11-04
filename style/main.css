@@ -1274,15 +1274,16 @@ header .logo a {
   padding: 15px 0;
   line-height: 16px;
   border: none;
+  transition: 0.2s;
 }
 .main-navigation li a:hover {
   color: #0084ff;
   padding-left: 1rem;
 }
-.main-navigation li.current > a {
+/* .main-navigation li.current > a {
   background: none;
   color: #0084ff;
-}
+} */
 
 /**
   * responsive:
@@ -2500,16 +2501,24 @@ footer {
 footer a,
 footer a:visited {
   color: #ffffff;
+  transform: scale(0.9) !important;
+  transition: 0.2s;
 }
-footer a:hover,
-footer a:focus {
-  color: #0084ff;
+footer a:hover {
+  transform: scale(1) !important;
+  color: #0084ff !important;
 }
 footer .row {
   max-width: 900px;
+  
 }
 footer .social {
   text-align: right;
+}
+.footer-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
 }
 footer .footer-social {
   display: inline-block;
@@ -2517,7 +2526,6 @@ footer .footer-social {
   margin: 0;
   padding: 0;
   position: relative;
-  top: -0.3rem;
 }
 footer .footer-social li {
   display: inline-block;
