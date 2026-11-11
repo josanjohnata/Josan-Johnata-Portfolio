@@ -110,7 +110,8 @@ section {
   font-size:27px;
   font-weight:700;
   color:#fff;
-  letter-spacing:-1.5px
+  letter-spacing:-1.5px;
+  white-space:nowrap
 }
 .wordmark span {
   color:var(--blue-light)
