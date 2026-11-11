@@ -27,6 +27,6 @@ Identidade visual adaptada do portfólio original, baseado em Kards, da Stylesho
 
 ## Publicação
 
-O projeto da Vercel está conectado à branch `main`. As versões públicas usam `/pt` e `/en`; os links antigos com `.html` são redirecionados para endereços sem extensão. A raiz do domínio mantém a versão em inglês.
+O projeto da Vercel está conectado à branch `main`. As versões públicas usam `/pt` e `/en`; os links antigos com `.html` são redirecionados para endereços sem extensão. Ao abrir a raiz do domínio, `script/language.js` identifica o idioma principal do navegador: português (`pt`, `pt-BR`, `pt-PT`) abre `/pt`; qualquer outro idioma abre `/en`. Parâmetros e âncoras são preservados. Os caminhos explícitos `/pt` e `/en` respeitam a escolha feita pelo visitante.
 
 As regras estão em `vercel.json`. O servidor `serve.py` oferece os mesmos caminhos de idioma no ambiente local.

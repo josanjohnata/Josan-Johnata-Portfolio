@@ -12,8 +12,8 @@ class PortfolioHandler(SimpleHTTPRequestHandler):
         url = urlsplit(self.path)
         redirects = {
             '/pt.html': '/pt',
-            '/index.html': '/en',
-            '/index': '/en',
+            '/index.html': '/',
+            '/index': '/',
             '/pt/': '/pt',
             '/en/': '/en',
         }
